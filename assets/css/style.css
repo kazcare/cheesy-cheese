@@ -88,3 +88,13 @@ header {
 
     position: absolute;
 }
+
+.body-text{
+    margin-top: 40px;
+    width: 50%;
+    padding: 10px;
+}
+.body-text p{
+    text-align: justify;
+    line-height: 28px;
+}
