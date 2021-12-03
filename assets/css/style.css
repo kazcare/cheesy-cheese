@@ -9,6 +9,7 @@ body {
     font-family: lato, sans-serif;
     font-weight: 300;
     color: rgb(23, 16, 44);
+    background-color: yellow;
 }
 h1, h2 {
     font-family:oswald, sans-serif; 
@@ -18,7 +19,7 @@ h1, h2 {
 }
 #logo{
     float: left;
-    font-size: 280%;
+    font-size: 300%;
     margin-left: 30px;
 }
 #menu{
@@ -39,8 +40,13 @@ h1, h2 {
     color: inherit;
 }
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid rgb(23, 16, 44);
 }
 .active{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid rgb(23, 16, 44);
+}
+#hero-image{
+    height: 500px;
+    width: 100%;
+    background: url(../images/hero-image.jpg) no-repeat center center;
 }

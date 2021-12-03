@@ -4,9 +4,11 @@ Idea of this website to give something special to the community who love cheese 
 
 ## Existing Features
 ### Header/Nav Bar
-
+    Website is having a static header element with logo on the left side of the desktop page and nav bar hanging against it on the left hand side.
+    nav bar elements are hilighted by showing a border underneath it when the particular navbar element id hovered, plus the current nav link is highlighted for the current active page.
+    These properties and looks of the header and navbar are consistant throughout the website.
 ### Landing Page
-
+    Home page of the website will have a hero image underneath the header and navbar area.
 ### Footer
 
 ### Recipe Pages
