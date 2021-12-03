@@ -11,7 +11,7 @@ Idea of this website to give something special to the community who love cheese 
 ### Landing Page
     Home page of the website has a hero image underneath the header and navbar area with cover text on it saying what is the website about.
 
-    Under the hero image, there will be text including some facts about cheese and why people think, it is amazing.
+    Under the hero image, there will be text including some facts about cheese and why people think, it is amazing, what actually cheese is and what is the origin of cheese? 
 
 ### Footer
 

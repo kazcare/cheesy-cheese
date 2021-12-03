@@ -33,7 +33,7 @@ h1, h2 {
 #menu li{
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 #menu a{
     text-decoration: none;
@@ -45,16 +45,12 @@ h1, h2 {
 .active{
     border-bottom: 1px solid rgb(23, 16, 44);
 }
-
-header {
-    position: sticky; 
-    top: 0;
-}
-
 #hero-image-outer{
     height: 425px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
 #cover-text, #cover-text h2{
     color: rgb(221, 235, 30);
@@ -75,15 +71,14 @@ header {
     text-transform: uppercase;
     letter-spacing: 6px;
 
-    width: 700px;
+    width: 650px;
     height: 120px;
 
-    padding-top: 10px;
-    padding-left: 15px;
+    padding: 15px;
 
     background-color: rgba(23, 16, 44, .5);
 
-    bottom: 140px;
+    bottom: 20px;
     right: 20px;
 
     position: absolute;
@@ -92,14 +87,30 @@ img{
     width: 50%;
     margin-left: 3%;
     float: right;
-    border-radius: 50%;
 }
 .body-text{
-    margin-top: 40px;
-    width: 100%;
-    padding: 10px;
+    margin-top: 5%;
+    width: 95%;
+    padding: 20px;
 }
 .body-text p{
     text-align: justify;
-    line-height: 28px;
+    line-height: 30px;
+}
+footer{
+    height: 100px;
+    background-color: rgb(23, 16, 44);
+    margin-top: 5%;
+}
+.social-networks{
+    text-align: center;
+}
+.social-networks > li{
+    display: inline;
+}
+.social-networks i{
+    font-size: 180%;
+    margin: 1%;
+    padding: 2%;
+    color: rgb(221, 235, 30);
 }
