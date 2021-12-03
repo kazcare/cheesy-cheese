@@ -17,6 +17,7 @@ Idea of this website to give something special to the community who love cheese 
 
 ### Recipe Pages
     There are currently 2 recipe pages available, Mac n Cheese and Cheesy Pizza.
+    These recipe pages have same header and footer layout, instead of body text these have list on ingredients and procedure of cooking the specific food.
 
 ### Sign Up Page
 
