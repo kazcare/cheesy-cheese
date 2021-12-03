@@ -8,7 +8,8 @@ Idea of this website to give something special to the community who love cheese 
     nav bar elements are hilighted by showing a border underneath it when the particular navbar element id hovered, plus the current nav link is highlighted for the current active page.
     These properties and looks of the header and navbar are consistant throughout the website.
 ### Landing Page
-    Home page of the website will have a hero image underneath the header and navbar area.
+    Home page of the website has a hero image underneath the header and navbar area with cover text on it saying what is the website about.
+    
 ### Footer
 
 ### Recipe Pages
@@ -26,7 +27,7 @@ Idea of this website to give something special to the community who love cheese 
 # Deployment
 
 ## Credits
-
+    Image used as hero image is downloaded from megapixel.com
 ### Content
 
 ### media
