@@ -7,7 +7,7 @@
 }
 body {
     font-family: lato, sans-serif;
-    font-weight: 350;
+    font-weight: 600;
     color: rgb(23, 16, 44);
     background-color: rgb(221, 235, 30);
 
@@ -25,12 +25,11 @@ h3 {
 }
 #logo{
     float: left;
-    font-size: 300%;
-    margin-left: 30px;
+    font-size: 250%;
+    margin-left: 20px;
 }
 #menu{
-    font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     margin-left: 100px;
 }
 #menu, #logo{
@@ -39,7 +38,8 @@ h3 {
 #menu li{
     float: right;
     list-style-type: none;
-    margin-left: 30px;
+    margin-left: 10px;
+    padding-right: 10px;
 }
 #menu a{
     text-decoration: none;
@@ -58,29 +58,25 @@ h3 {
 
     position: relative;
 }
-#cover-text, #cover-text h2{
+#cover-text, #cover-text h2, #cover-text h3{
     color: rgb(221, 235, 30);
 }
 
-#cover-text #cover-text-left{
-    float: right;
-    padding-right: 20px;
-}
 #hero-image{
     height: 425px;
     width: 100%;
     background: url(../images/hero-image.jpg) center center;
 }
 #cover-text{
-    font-size: 110%;
+    font-size: 100%;
     font-family: oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 
-    width: 650px;
+    width: 350px;
     height: 120px;
 
-    padding: 15px;
+    padding: 10px;
 
     background-color: rgba(23, 16, 44, .5);
 
@@ -89,6 +85,11 @@ h3 {
 
     position: absolute;
 }
+
+#cover-text #cover-text-left{
+    float: right;
+}
+
 .sub-heading {
     font-family: oswald, sans-serif;
     font-size: 1.3rem;
@@ -201,7 +202,7 @@ img{
 }
 textarea{
     width: 98%;
-    height: 180px;
+    height: 120px;
     border: 1px solid rgb(23, 16, 44);
     border-radius: 7px;
     background-color: rgb(221, 235, 30);
@@ -227,4 +228,13 @@ footer{
     margin: 1%;
     padding: 2%;
     color: rgb(221, 235, 30);
+}
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }    
 }
