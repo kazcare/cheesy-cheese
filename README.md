@@ -1,5 +1,5 @@
 # Cheesy Cheese
-Idea of this website to give something special to the community who love cheese alot. So, I decided to make a website with the recipes of some tasty, delicius and famous food made from cheese or used cheese as its main ingredient.
+    Idea of this website to give something special to the community who love cheese alot. So, I decided to make a website with the recipes of some tasty, delicius and famous food made from cheese or used cheese as its main ingredient.
 ## Features
 
 ## Existing Features
@@ -17,18 +17,23 @@ Idea of this website to give something special to the community who love cheese 
 
     All pages of the website has a hero image underneath the header and navbar area with cover text on it saying what is the website about, which changes its position on screen smaller than 950px.
 <img src="assets/images/header-hero-image.png">
+<br>
 <img src="assets/images/header-hero-image-950px.png">
+<br>
 <img src="assets/images/header-hero-image-800px.png">
 
-The logo, nav bar and hero image on the top and footer at the bottom is consistent to all the pages. Content changes between those areas. 
+    Navigation links change its size as mouse pointer hovers over these and current page link stays underlined.
+<img src="assets/images/nav-bar-hover.png">
+
+    The logo, nav bar and hero image on the top and footer at the bottom is consistent to all the pages. Content changes between those areas. 
 
 ### Landing Page
 
-On home page, under the hero image has some text including some facts about cheese and why people think it is amazing, what actually cheese is and what is the origin of cheese? It has an picture on the right hand side of the text. 
+    On home page, under the hero image has some text including some facts about cheese and why people think it is amazing, what actually cheese is and what is the origin of cheese? It has an picture on the right hand side of the text. 
 
 <img src="assets/images/home-body.png">
 
-This picture shifts as sctreen size goes down.
+This picture shifts as screen size goes down.
 
 <img src="assets/images/home-body-800px.png">
 
@@ -44,7 +49,7 @@ This picture shifts as sctreen size goes down.
 
 ### Footer
 
-Footer contains social media icons which are linked to the corresponding external websites and it cover 100% of the screen width on all screen sizes. Aria label attribute is used for all the external links to communicate the text to screen reader users. 
+    Footer contains social media icons which are linked to the corresponding external websites and it cover 100% of the screen width on all screen sizes. Aria label attribute is used for all the external links to communicate the text to screen reader users. 
 
 <img src="assets/images/footer.png">
 <img src="assets/images/footer-800px.png">

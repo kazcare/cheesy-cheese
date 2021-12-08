@@ -70,7 +70,7 @@ header a:hover {
 
 #menu a:hover {
     font-size: larger;
-    border-bottom: 1px solid rgb(23, 16, 44);
+    /* border-bottom: 1px solid rgb(23, 16, 44); */
 }
 
 .active {
