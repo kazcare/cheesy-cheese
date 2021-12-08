@@ -9,7 +9,7 @@ body {
     font-family: lato, sans-serif;
     font-weight: 600;
     color: rgb(23, 16, 44);
-    background-color: rgb(221, 235, 30);
+    background-color: rgb(198, 213, 167);
 
     box-sizing: border-box;
 }
@@ -56,14 +56,14 @@ h3 {
     border-bottom: 1px solid rgb(23, 16, 44);
 }
 #hero-image-outer{
-    height: 425px;
+    height: 250px;
     width: 100%;
     overflow: hidden;
 
     position: relative;
 }
 #cover-text, #cover-text h2, #cover-text h3{
-    color: rgb(221, 235, 30);
+    color: #fff;
 }
 
 #hero-image{
@@ -126,15 +126,15 @@ img{
   height: 100vh;
 }
 .form {
-    background-color: rgb(221, 235, 30);
+    background-color: rgb(198, 213, 167);
     width: 400px;
     border-radius: 8px;
-    padding: 20px 40px;
+    padding: 10px 40px;
     box-shadow: 0 10px 25px rgba(23, 16, 44, .9);
 }
 .title {
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .inputContainer {
     position: relative;
@@ -164,7 +164,7 @@ img{
     top: 15px;
     left: 15px;
     padding: 0 4px;
-    background-color: rgb(221, 235, 30);
+    background-color: rgb(198, 213, 167);
     color: rgba(23, 16, 44, .5);
     font-size: 16px;
     transition: 0.5s;
@@ -176,7 +176,7 @@ img{
     padding: 15px 30px;
     border: none;
     background-color: rgb(23, 16, 44);
-    color:rgb(221, 235, 30);
+    color:rgb(198, 213, 167);
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
@@ -209,7 +209,7 @@ img{
     height: 120px;
     border: 1px solid rgb(23, 16, 44);
     border-radius: 7px;
-    background-color: rgb(221, 235, 30);
+    background-color: rgb(198, 213, 167);
     color: rgb(23, 16, 44);
     font-size: 16px;
     resize: none;
@@ -231,7 +231,7 @@ footer{
     font-size: 180%;
     margin: 1%;
     padding: 2%;
-    color: rgb(221, 235, 30);
+    color: rgb(198, 213, 167);
 }
 @media screen and (max-width: 950px) {
     #menu {
@@ -253,7 +253,7 @@ footer{
     }
     #menu{
         text-align: center;
-        line-height: 40px;
+        line-height: 30px;
         align-items: center;
         float: none;
 
