@@ -28,19 +28,13 @@
 
 ### Landing Page
 
-    On home page, under the hero image has some text including some facts about cheese and why people think it is amazing, what actually cheese is and what is the origin of cheese? It has an picture on the right hand side of the text. 
-
-<img src="assets/images/home-body.png">
-
-This picture shifts as screen size goes down.
-
-<img src="assets/images/home-body-800px.png">
+    On home page, under the hero image has some text including some facts about cheese and why people think it is amazing, what actually cheese is and what is the origin of cheese? It has an picture on the right hand side of the text, which takes over 100% of the width when screen size is reduced to 800 pixels or less.
 
 ### Recipe Pages
     There are currently 2 recipe pages available, Mac n Cheese and Cheesy Pizza.
     These recipe pages have same header and footer layout, instead of body text these have list on ingredients and procedure of cooking the specific food.
 
-    Lay out of the recipe pages are similar to each other. Both has Ingredients and Method of cooking the dish with a image of the cooked dish beside it. It is responsive to smaller screen sizes.
+    Lay out of the recipe pages are similar to each other. Both has Ingredients and Method of cooking the dish with a image of the cooked dish beside it. It is responsive to smaller screen sizes same as the home page.
 
 <img src="assets/images/recipe-page.png">
 
