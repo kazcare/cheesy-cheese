@@ -2,17 +2,24 @@
     Idea of this website to give something special to the community who love cheese alot. So, I decided to make a website with the recipes of some tasty, delicius and famous food made from cheese or used cheese as its main ingredient.
 ## Features
 
+<img src="assets/images/responsive-main.png">
+
 ## Existing Features
 ### Header/Nav Bar
-    Website is having a static header element with logo on the left side of the desktop page and nav bar hanging against it on the left hand side.
-    nav bar elements are hilighted by showing a border underneath it when the particular navbar element id hovered, plus the current nav link is highlighted for the current active page.
+
+    Website is having a static header element with logo on the left side of the desktop page.
+
+    Navigation bar elements are increase in size when the particular navbar element is hovered, plus the nav link is underlined for the current active page.
     These properties and looks of the header and navbar are consistant throughout the website.
+
+    Nav bar hanging against the logo on the right hand side, but it chages its position for smaller screen sizes. It normally looks like the following
+    
 <img src="assets/images/header-navbar.png">
 
-    Navigation links move under the logo for screen sizes 950px and smaller (for tablets)
+    But navigation links move under the logo for screen sizes 950px and smaller (for tablets)
 <img src="assets/images/header-navbar-950px.png">
 
-    It further changes its position for screen sizes 800px and smaller (for smart phones)
+    It further changes its position for screen sizes 800px and smaller (for smart phones/ tablets in portrait mode)
 <img src="assets/images/header-navbar-800px.png">
 
     All pages of the website has a hero image underneath the header and navbar area with cover text on it saying what is the website about, which changes its position on screen smaller than 950px.
