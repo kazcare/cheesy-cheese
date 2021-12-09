@@ -68,8 +68,21 @@ This picture shifts as screen size goes down.
 ## Features Left to Implement
 
 ## Testing
+    This website is tested on Google Chrome, Microsoft Edge and Mozilla Firefox.
+
+    It is responsive for different screen sizes, which is checked on all above mentioned internet browsers.
+
+    The colour scheme used in the website is readable on all screens and browsers. 
+
+    Forms are tested, it validates the input for different field and submit button responds.
 
 ## Validator Testing
+
+    No errors were detected by W3C validatol for all html pages 
+
+    No issues were indicated by W3C CSS (Jigsaw) validator.
+
+    I confirmed that colours and fonts are readable
 
 ## Unfixed Bugs
 
