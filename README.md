@@ -45,8 +45,10 @@
 <img src="assets/images/footer.png">
 
 ### Feedback Page
-    Feedback page was designed to get cusotmer login and their feedback about the website, get the new ideas from the target audience.
 
+    Feedback page was designed to get cusotmer login and their feedback about the website, get the new ideas from the target audience.
+    It validates user's input. User's email address, username and password are required fields form instruct user to input all those fields before it can be submitted. Moreover, I validates the proper email syntax and incripts the password content.
+    
 <img src="assets/images/feedback.png">
 
 ## Features Left to Implement
@@ -66,7 +68,12 @@
 
     No issues were indicated by W3C CSS (Jigsaw) validator.
 
-    I confirmed that colours and fonts are readable
+    I confirmed that colours and fonts are readable.
+
+    I used lighthouse option the Google Chrome Dev Tools to verify the website integrity. 
+    
+<img src="assets/images/lighthouse-report.png">
+
 
 ## Unfixed Bugs
 
