@@ -309,6 +309,10 @@ img {
 
 
 @media screen and (max-width: 950px) {
+    header{
+        height: 120px;
+    }
+
     #menu {
         clear: left;
         float: left;
@@ -323,6 +327,11 @@ img {
 }
 
 @media screen and (max-width: 800px) {
+
+    header{
+        height: 230px;
+    }
+
     #logo {
         text-align: center;
         float: none;
