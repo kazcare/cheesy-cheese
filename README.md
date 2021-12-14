@@ -8,7 +8,7 @@
     
 ## Features
 
-<img src="assets/images/responsive-main.png">
+<img src="docs/responsive-main.png">
 
 ### Header/Nav Bar
 
@@ -26,7 +26,7 @@
     All pages of the website has a hero image with text overlay underneath the header and navbar area with cover 
     text on it saying what is the website about, which changes its position on screen smaller than 950px.
 
-<img src="assets/images/nav-bar-hover.png">
+<img src="docs/nav-bar-hover.png">
 
     The logo, nav bar and hero image on the top and footer at the bottom is consistent to all the pages. Content 
     changes between those areas. 
@@ -47,7 +47,7 @@
     with a image of the cooked dish beside it. It is responsive to smaller screen sizes same as the home page 
     and images take over 100% of the screen width for 800px or smaller screen sizes.
 
-<img src="assets/images/recipe-page.png">
+<img src="docs/recipe-page.png">
 
 ### Footer
 
@@ -55,7 +55,7 @@
     100% of the screen width on all screen sizes. Aria label attribute is used for all the external links to 
     communicate the text to screen reader users. 
 
-<img src="assets/images/footer-responsive.png">
+<img src="docs/footer-responsive.png">
 
 ### Feedback Page
 
@@ -65,7 +65,7 @@
     user to input all those fields before it can be submitted. Moreover, I validates the proper email syntax 
     and incripts the password content.
 
-<img src="assets/images/feedback.png">
+<img src="docs/feedback.png">
 
 ## Features Left to Implement
 
@@ -73,9 +73,9 @@
 
     This website is tested on Google Chrome, Microsoft Edge and Mozilla Firefox.
 
-<img src="assets/images/testing-chrome.png">
-<img src="assets/images/testing-edge.png">
-<img src="assets/images/testing-firefox.png">
+<img src="docs/testing-chrome.png">
+<img src="docs/testing-edge.png">
+<img src="docs/testing-firefox.png">
 
     It is responsive for different screen sizes, which is checked on all above mentioned internet browsers.
 
@@ -93,7 +93,7 @@
 
     I used lighthouse option the Google Chrome Dev Tools to verify the website integrity. 
     
-<img src="assets/images/lighthouse-report.png">
+<img src="docs/lighthouse-report.png">
 
 
 ## Unfixed Bugs

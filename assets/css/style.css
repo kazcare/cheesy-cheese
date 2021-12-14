@@ -11,7 +11,6 @@ body {
     font-weight: 600;
     color: rgb(23, 16, 44);
     background-color: rgb(198, 213, 167);
-
     box-sizing: border-box;
 }
 
@@ -20,7 +19,7 @@ h2,
 h3 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: rgb(23, 16, 44);
 }
 
@@ -34,8 +33,7 @@ h3 {
 header{
     width: 100%;
     height: 75px;
-    background-color: rgba(198, 213, 167, 0.8);
-
+    background-color: rgb(198, 213, 167);
     position: sticky;
     top: 0;
 }
@@ -48,7 +46,7 @@ header a:hover {
     font-size: larger;
 }
 
-#logo {
+.logo {
     float: left;
     font-size: 200%;
     margin-left: 10px;
@@ -60,7 +58,7 @@ header a:hover {
 }
 
 #menu,
-#logo {
+.logo {
     line-height: 75px;
 }
 
@@ -84,7 +82,7 @@ header a:hover {
     border-bottom: 1px solid rgb(23, 16, 44);
 }
 
-/* hero image area styling*/
+/* hero image and cover text styling*/
 
 #hero-image-outer {
     height: 250px;
@@ -110,17 +108,12 @@ header a:hover {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-
     width: 300px;
     height: 120px;
-
     padding: 8px;
-
     background-color: rgba(23, 16, 44, .5);
-
     bottom: 20px;
     right: 20px;
-
     position: absolute;
 }
 
@@ -310,14 +303,15 @@ img {
 
 @media screen and (max-width: 950px) {
     header{
-        height: 120px;
+        height: 100px;
     }
 
     #menu {
         clear: left;
         float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
+        left: 0;
+        margin-left: 10px;
+        margin-bottom: 10px;
         line-height: 25px;
     }
 
@@ -326,31 +320,22 @@ img {
     }
 }
 
-/* media query for 800px or smaller screen sizes*/
+/* media query for 600px or smaller screen sizes*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
 
-    header{
-        height: 230px;
+    .logo{
+        font-size: 1.8rem;
     }
 
-    #logo {
-        text-align: center;
-        float: none;
-    }
+   #menu h3{
+       font-size: 0.9rem;
+       letter-spacing: 1px;
+   }
 
-    #menu {
-        text-align: center;
-        line-height: 30px;
-        align-items: center;
-        float: none;
-
-    }
-
-    #menu>li {
-        width: 100%;
-        clear: both;
-    }
+   #menu li{
+    padding:0 5px 0 5px;
+   }
 
     .body-text>img {
         clear: both;
