@@ -1,3 +1,5 @@
+<md> 
+
 # Cheesy Cheese
 
     Idea of this website to give something special to the community who love cheese alot. There are 
@@ -102,8 +104,8 @@
 
     The website is deployed to GitHub pages, through GitHub repository
 
-    The live link for the website can be found by clicking here 
-    https://kazcare.github.io/cheesy-cheese/index.html
+    The live link for the website can be found by clicking 
+    [here](https://kazcare.github.io/cheesy-cheese/index.html)
     
 ## Credits
 
