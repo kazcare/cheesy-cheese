@@ -1,16 +1,18 @@
 # Cheesy Cheese
 
-    Idea of this website to give something special to the community who love cheese alot. So, I decided to make 
-    a website with the recipes of some tasty, delicius and famous food made from cheese or used cheese as its 
-    main ingredient.
+    Idea of this website to give something special to the community who love cheese alot. There are 
+    already website for recipes including food with cheese in it. But I decided to make a website with the recipes of tasty, delicius and famous food made from cheese or used cheese as its main ingredient. It means every recipe in this website has cheese in it as its main ingredient.
 
+    Many people around the work love cheese and food made from cheese, even some on them use it as 
+    their regular part of daily meal. Kids love food with cheese in it and they always want something cheesy. It is a good idea to have them all in one place for their mommies. So, they don't need to go to website and look for cheesy recipes, as these are all cheesy in this website.
+    
 ## Features
 
 <img src="assets/images/responsive-main.png">
 
 ### Header/Nav Bar
 
-    Website is having a static header element with logo on the left side of the desktop page.
+    Website has a static header element with logo on the left side of the desktop page.
 
     Navigation bar elements are increase in size when the particular navbar element is hovered, plus the 
     nav link is underlined for the current active page.
@@ -53,7 +55,7 @@
     100% of the screen width on all screen sizes. Aria label attribute is used for all the external links to 
     communicate the text to screen reader users. 
 
-<img src="assets/images/footer.png">
+<img src="assets/images/footer-responsive.png">
 
 ### Feedback Page
 
@@ -71,17 +73,21 @@
 
     This website is tested on Google Chrome, Microsoft Edge and Mozilla Firefox.
 
+<img src="assets/images/testing-chrome.png">
+<img src="assets/images/testing-edge.png">
+<img src="assets/images/testing-firefox.png">
+
     It is responsive for different screen sizes, which is checked on all above mentioned internet browsers.
 
     The colour scheme used in the website is readable on all screens and browsers. 
 
-    Forms are tested, it validates the input for different field and submit button responds.
+    Forms are tested, it validates the input for different fields and submit button responds.
 
 ## Validator Testing
 
-    No errors were detected by W3C validatol for all html pages 
+    No errors were detected by W3C validatol for all html files.
 
-    No issues were indicated by W3C CSS (Jigsaw) validator.
+    No issues were indicated by W3C CSS (Jigsaw) validator css file.
 
     I confirmed that colours and fonts are readable.
 
