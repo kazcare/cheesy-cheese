@@ -220,7 +220,7 @@ img {
     padding: 15px 30px;
     border: none;
     background-color: rgb(23, 16, 44);
-    color: rgb(198, 213, 167);
+    color: rgb(245, 247, 241);
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
@@ -395,7 +395,7 @@ img {
         font-size: 1.2rem;
     }
     .container{
-        height: 160px;
+        height: 180px;
         font-size: 1rem;
         width: 80%;
         margin-left: 10%;
