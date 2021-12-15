@@ -168,7 +168,7 @@ img {
     width: 400px;
     border-radius: 8px;
     padding: 10px 40px;
-    box-shadow: 0 15px 50px rgba(25, 104, 58, 0.9);
+    box-shadow: 0 15px 50px rgba(23, 16, 44, 0.9);
 }
 
 .title {
@@ -286,7 +286,7 @@ img {
     margin-top: 50px;
     margin-left: 25%;
     border-radius: 17px;
-    box-shadow: 0 15px 30px rgba(25, 104, 58, 0.9);
+    box-shadow: 0 15px 30px rgba(23, 16, 44, 0.9);
 }
 
 /* style for footer */
@@ -316,9 +316,13 @@ img {
 /* media query for 950px or smaller screen sizes*/
 
 @media screen and (max-width: 950px) {
+
+/* header area restyling for small screens */
     header{
         height: 100px;
     }
+
+/* nav bar moves unger logo */
 
     #menu {
         clear: left;
@@ -329,9 +333,13 @@ img {
         line-height: 25px;
     }
 
+/* over text shifts to the left */
+
     #cover-text {
         left: 0;
     }
+
+/* thankyou message box height goes bigger to accommodat the short width */
 
     .container{
         height: 150px;
@@ -342,18 +350,22 @@ img {
 
 @media screen and (max-width: 600px) {
 
+/* logo and navbar items size get smaller to fit small screens */
+
     .logo{
         font-size: 1.8rem;
     }
 
     #menu h3{
-       font-size: 0.9rem;
-       letter-spacing: 1px;
+       font-size: 0.8rem;
+       letter-spacing: 0px;
    }
 
     #menu li{
         padding:0 5px 0 5px;
    }
+
+/* size and text of cover text get smaller for small screens */
 
    #cover-text{
     width: 225px;
@@ -364,15 +376,19 @@ img {
     #cover-text h2,
     #cover-text h3 {
         font-size: 80%;
-}
+    }
+
+/* image in the body covers 100% of the screen on small screen */
 
     .body-text>img {
         clear: both;
         width: 100%;
     }
 
+/*feedback form and thankyou get restyled for smaller screens */
+
     .form {
-        width: 250px;
+        width: 200px;
     }
 
     .container h2{
@@ -383,6 +399,7 @@ img {
         font-size: 1rem;
         width: 80%;
         margin-left: 10%;
+        margin-top: 20px;
     }
 
 }
