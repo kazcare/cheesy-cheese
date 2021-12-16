@@ -1,16 +1,19 @@
 
-# **Cheesy Cheese**
 
+<a></a>
+
+# **Cheesy Cheese**
 ## Overview
 
-Idea of this website to give something special to the community who love cheese alot. There are already website for recipes including food with cheese in it. But I decided to make a website with the recipes of tasty, delicius and famous food made from cheese or used cheese as its main ingredient. It means every recipe in this website has cheese in it as its main ingredient.
+Idea of this website to give something special to the community who love cheese so much that they can't live without it. There are already website for recipes including recipes of food with cheese in it. But I decided to make a website with the recipes of tasty, delicius and famous food made from cheese or used cheese as its main ingredient. It means every recipes in this website has cheese in it as its main ingredient.
 
-Many people around the work love cheese and food made from cheese, even some on them use it as their regular part of daily meal. Kids love food with cheese in it and they always want something cheesy. It is a good idea to have them all in one place for their mommies. So, they don't need to go to website and look for cheesy recipes, as these are all cheesy in this website.
+Many people around the world love cheese and food made from cheese, even some on them use it as their regular part of daily meal. Kids love food with cheese in it and they always want something cheesy. It is a good idea to have them all in one place for their mommies. So, they don't need to go to website and look for cheesy recipes, as these are all cheesy in this website.
     
 
 <img src="docs/responsive-main.png">
 
 <a></a>
+
 ## Table of contents 
 * [Cheesy Cheese](#cheesy-cheese)
     * [User Goals](#user-goals)
@@ -31,13 +34,13 @@ Many people around the work love cheese and food made from cheese, even some on 
         * [Footer](#footer)
         * [Feedback Page](#feedback-page)
         * [Thank You Page](#thank-you-page)
-    * [Features to be implemented](#features-to-be-implemented)
 * [Technologies Used](#technologies-used)
     * [Languages](#languages)
     * [Tools](#tools)
 * [Testing](#testing)
     * [Physical Testing](#physical-testing)
     * [Validator Testing](#validator-testing)
+    * [Fixed Bugs](#fixed-bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
     * [Content](#content)
@@ -45,6 +48,7 @@ Many people around the work love cheese and food made from cheese, even some on 
     * [Other Sources](#other-sources)
 
 <a></a>
+
 ## User Goals
 
 * Website should be easy to navigate on all devices formats such as desktop, tablets and mobile phones.
@@ -54,6 +58,7 @@ Many people around the work love cheese and food made from cheese, even some on 
 * Easy to follow recipes.
 
 [Back to Top](#table-of-contents)
+
 <a></a>
 ## User Stories
 
@@ -110,10 +115,7 @@ I used a colour similar to navy for the all the texts and heading to give a unif
 
 <a></a>
 ## Features
-<a></a>
-### Existing Features
-<a></a>
-#### **Header and Navbar**
+### **Header and Navbar**
 
 Website has a static header element with logo on the left side of the desktop page.
 
@@ -132,7 +134,7 @@ The logo, nav bar and hero image on the top and footer at the bottom is consiste
 [Back to Top](#table-of-contents)
 
 <a></a>
-#### **Landing Page**
+### **Landing Page**
 
 On home page, under the hero image it has some text including some facts about cheese and why people think it is amazing, what actually cheese is and what is the origin of cheese? It has an picture on the right hand side of the text, which takes over 100% of the width when screen size is reduced to 800 pixels or less.
 
@@ -140,7 +142,7 @@ On home page, under the hero image it has some text including some facts about c
 
 [Back to Top](#table-of-contents)
 <a></a>
-#### **Recipe Page**
+### **Recipe Page**
 
 There are currently 2 recipe pages available, Mac n Cheese and Cheesy Pizza. These recipe pages have same header and footer layout, instead of body text these have list on ingredients and procedure of cooking the specific food.
 
@@ -149,16 +151,18 @@ Lay out of the recipe pages are similar to each other. Both has Ingredients and 
 <img src="docs/recipe-page.png">
 
 [Back to Top](#table-of-contents)
+
 <a></a>
-#### **Footer**
+### **Footer**
 
 Footer contains social media icons which are linked to the corresponding external websites and it cover 100% of the screen width on all screen sizes. Aria label attribute is used for all the external links to communicate the text to screen reader users. 
 
 <img src="docs/footer-responsive.png">
 
 [Back to Top](#table-of-contents)
+
 <a></a>
-#### **Feedback Page**
+### **Feedback Page**
 
 Feedback page was designed to get cusotmer login and their feedback about the website, get the new ideas from the target audience.
 It validates user's input. User's email address, username and password are required fields form instruct user to input all those fields before it can be submitted. Moreover, I validates the proper email syntax and incripts the password content.
@@ -172,31 +176,26 @@ It validates user's input. User's email address, username and password are requi
 This page was created to thank users for taking their time to fill up the feedback form and to give them confirmation that their feedback has been validly entered.
 
 <img src="docs/thankyou.png">
-[Back to Top](#table-of-contents)
-<a></a>
-### Features Left to Implement
-
 
 [Back to Top](#table-of-contents)
+
 <a></a>
 ## Technologies Used
-<a></a>
 ### Languages
 
 As I am doing HTML/CSS project, I used only HTML5 and CSS3 throughout the project.
 I used media query to make the website responsive to different screen sizes.
 
-[Back to Top](#table-of-contents)
 <a></a>
 ### Tools
 
 I used gitpod to code my website and I deployed it on the github pages, which is easy to manage and update in future.
 
 [Back to Top](#table-of-contents)
+
 <a></a>
 ## Testing
 
-<a></a>
 <a></a>
 ### Physical Testing
 
@@ -220,6 +219,7 @@ Forms are tested, it validates the input for different fields and submit button 
 Clicking on submit button, if form is validated, brings user to the thankyou page.
 
 [Back to Top](#table-of-contents)
+
 <a></a>
 ### Validator Testing
 
@@ -234,26 +234,35 @@ I used lighthouse option the Google Chrome Dev Tools to verify the website integ
 <img src="docs/lighthouse-report.png">
 
 [Back to Top](#table-of-contents)
+
+<a></a>
+## Fixed Bugs
+
+I have a sticky header and navbar, situated side by side on the top of the each page of the site. On the smaller screens navbar moves under the logo creating another row. For the mobile screens navbar used to go under logo but the navbar items were stacked on top of each other and it was covering almost half of the screen. I fixed if by reducing the font of the navbar item, so these can fit on onle row under the logo.
+
+[Back to Top](#table-of-contents)
+
 <a></a>
 ## Deployment
 
-The website is deployed to GitHub pages, through GitHub repository
-The github repository can be found by clicking <a href="https://github.com/kazcare/cheesy-cheese" target="_blank">here.</a>
+I deployed my website through <a href="https://github.com/" target="_blank">GitHub.com</a> by logging in to my own account and clicked on your repositories link in the my account menu. I clicked my project repository, it opened another page with all ny files I created for the project. On top of the screen just above the list of file there is a menu. Next, I clicked the setting option on the right hand of the menu, which brings to the setting page. I scrolled down untill I find GitHub Pages option. Then I clicked "check it out here" link under it to open Github Pages full menu page and it said that my site was published at the web address.
 
-The deployed link for the website can be found by clicking <a href="https://kazcare.github.io/cheesy-cheese/index.html" target="_blank">here.</a>
+You can check out my GitHub repository by clicking <a href="https://github.com/kazcare/cheesy-cheese" target="_blank">here.</a> and the deployed link for the website can be found by clicking <a href="https://kazcare.github.io/cheesy-cheese/index.html" target="_blank">here.</a>
+
+[Back to Top](#table-of-contents)
 
 <a></a>  
 ## Credits
 
-This project is built for educational purpose only.
+I would like to inform you all that this project (Cheesy Cheese) is built for educational purpose only and I have rendered the following items and information from different resources. I would like to thank you all for helping me completing my project.
 
 [Back to Top](#table-of-contents)
+
 <a></a>
 ### Content
 
 All recipes were copied from "bbcgoodfood.com"
 
-[Back to Top](#table-of-contents)
 <a></a>
 ### Media
 
@@ -262,7 +271,6 @@ Rest of the images on the main page and recipe pages are downloaded from "istock
 
 Home icon and Social media icons were downloaded from "Font Awesome"
 
-[Back to Top](#table-of-contents)
 <a></a>
 ### Other Sources
 
