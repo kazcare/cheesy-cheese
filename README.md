@@ -117,7 +117,7 @@ Navigation bar elements are increase in size when the particular navbar element 
     
 These properties and looks of the header and navbar are consistant throughout the website.
 
-Nav bar hanging against the logo on the right hand side, but it chages its position for smaller screen sizes. But navigation links move under the logo for screen sizes 950px and smaller (for tablets). It further changes its position for screen sizes 800px and smaller (for smart phones/ tablets in portrait mode).
+Nav bar hanging against the logo on the right hand side, but it chages its position for smaller screen it moves under the logo for screen sizes 950px and smaller (for tablets). It reduces its font size for screen sizes 600px and smaller (for smart phones/ tablets in portrait mode).
 
 All pages of the website has a hero image with text overlay underneath the header and navbar area with cover text on it saying what is the website about, which changes its position on screen smaller than 950px.
 
@@ -169,6 +169,7 @@ It validates user's input. User's email address, username and password are requi
 ### **Thank You Page**
 
 This page was created to thank users for taking their time to fill up the feedback form and to give them confirmation that their feedback has been validly entered.
+The box height and width gains in size to accomodate the text on the smaller screens.
 
 <img src="docs/thankyou.png">
 
@@ -184,7 +185,9 @@ I used media query to make the website responsive to different screen sizes.
 <a></a>
 ### Tools
 
-I used gitpod to code my website and I deployed it on the github pages, which is easy to manage and update in future.
+I used gitpod IDE to code my website.
+
+I deployed it on the github pages, which is easy to manage and update in future.
 
 [Back to Top](#table-of-contents)
 
@@ -220,7 +223,7 @@ Clicking on submit button, if form is validated, brings user to the thankyou pag
 
 No errors were detected by W3C validatol for all html files.
 
-No issues were indicated by W3C CSS (Jigsaw) validator css file.
+No issues were indicated by W3C CSS (Jigsaw) validator for css file.
 
 I confirmed that colours and fonts are readable.
 
@@ -270,15 +273,13 @@ All recipes were copied from "bbcgoodfood.com"
 Image used as hero image is downloaded from "pixels.com"
 Rest of the images on the main page and recipe pages are downloaded from "istockphoto.com"
 
-Home icon and Social media icons were downloaded from "Font Awesome"
+All Social media icons were downloaded from "Font Awesome"
 
 <a></a>
 ### Other Sources
 
 Idea for the feedback form was taken from "CSS Sign Up Form Tutorial" from the "freecodecamp.org" with some modification.
 
-Text overlay idea was taken from love running website.
+Text overlay idea was taken from "love running" website.
 
 [Back to Top](#table-of-contents)
-
-
