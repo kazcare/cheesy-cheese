@@ -27,13 +27,12 @@ Many people around the world love cheese and food made from cheese, even some on
         * [Colors](#colors)
 * [Wireframes](#wireframes)
 * [Features](#features)
-    * [Existing Features](#existing-features)
-        * [Header and Navbar](#header-and-navbar)
-        * [Landing Page](#landing-page)
-        * [Recipe Page](#recipe-page)
-        * [Footer](#footer)
-        * [Feedback Page](#feedback-page)
-        * [Thank You Page](#thank-you-page)
+    * [Header and Navbar](#header-and-navbar)
+    * [Landing Page](#landing-page)
+    * [Recipe Page](#recipe-page)
+    * [Footer](#footer)
+    * [Feedback Page](#feedback-page)
+    * [Thank You Page](#thank-you-page)
 * [Technologies Used](#technologies-used)
     * [Languages](#languages)
     * [Tools](#tools)
@@ -48,7 +47,6 @@ Many people around the world love cheese and food made from cheese, even some on
     * [Other Sources](#other-sources)
 
 <a></a>
-
 ## User Goals
 
 * Website should be easy to navigate on all devices formats such as desktop, tablets and mobile phones.
@@ -80,7 +78,6 @@ Many people around the world love cheese and food made from cheese, even some on
 * Easy to read and follow the instructions.
 * To have a simple Feedback form.
 
-[Back to Top](#table-of-contents)
 <a></a>
 ### Expectations
 
@@ -99,20 +96,17 @@ I used Oswald font style for the headings. Oswald makes the headings clear and n
 
 For the body content and recipes and forms, I used Lato font. It make the website very easy to read.
 
-[Back to Top](#table-of-contents)
 <a></a>
 ### Icons
 
 I have used all the icons in the footer from the [Font Awesome library](https://fontawesome.com/ "Font Awesome").
 
-[Back to Top](#table-of-contents)
 <a></a>
 ### Colors
 
-I used a colour similar to navy for the all the texts and heading to give a uniformity throughout the website and used a similar to light pistachio colour for the background to give a good contrast between the text and the background, which makes it easy to read.
+I used a colour similar to navy *rgb(23, 16, 44)* for the all the texts and heading to give a uniformity throughout the website and used a similar to light pistachio *rgb(198, 213, 167)* colour for the background to give a good contrast between the text and the background, which makes it easy to read.
 
 [Back to Top](#table-of-contents)
-
 <a></a>
 ## Features
 ### **Header and Navbar**
@@ -127,9 +121,10 @@ Nav bar hanging against the logo on the right hand side, but it chages its posit
 
 All pages of the website has a hero image with text overlay underneath the header and navbar area with cover text on it saying what is the website about, which changes its position on screen smaller than 950px.
 
+The logo and nav bar link items have sticky position. These stay on the top of the screen, even when user is scrolling down.
+
 <img src="docs/nav-bar-hover.png">
 
-The logo, nav bar and hero image on the top and footer at the bottom is consistent to all the pages. Content changes between those areas. 
 
 [Back to Top](#table-of-contents)
 
@@ -240,12 +235,20 @@ I used lighthouse option the Google Chrome Dev Tools to verify the website integ
 
 I have a sticky header and navbar, situated side by side on the top of the each page of the site. On the smaller screens navbar moves under the logo creating another row. For the mobile screens navbar used to go under logo but the navbar items were stacked on top of each other and it was covering almost half of the screen. I fixed if by reducing the font of the navbar item, so these can fit on onle row under the logo.
 
+The sticky header and navbar had another issue that when I was scrolling down it was staying on the top of all the items except hero image. I used z-index on the header area and hero image and gave the one for header area higher value than the one for the hero image.
+
 [Back to Top](#table-of-contents)
 
 <a></a>
 ## Deployment
 
-I deployed my website through <a href="https://github.com/" target="_blank">GitHub.com</a> by logging in to my own account and clicked on your repositories link in the my account menu. I clicked my project repository, it opened another page with all ny files I created for the project. On top of the screen just above the list of file there is a menu. Next, I clicked the setting option on the right hand of the menu, which brings to the setting page. I scrolled down untill I find GitHub Pages option. Then I clicked "check it out here" link under it to open Github Pages full menu page and it said that my site was published at the web address.
+- I deployed my website through <a href="https://github.com/" target="_blank">GitHub.com</a>.
+- I started by logging in to my own account and clicked on "your repositories" link in the my account menu. 
+- I clicked my project repository, it opened another page with all ny files I created for the project. 
+- On top of the screen just above the list of file there is a menu. 
+- Next, I clicked the setting option on the right hand of the menu, which brings to the setting page. 
+- I scrolled down untill I find GitHub Pages option. 
+- Then I clicked "check it out here" link under it to open Github Pages full menu page and it said that my site was published at the web address.
 
 You can check out my GitHub repository by clicking <a href="https://github.com/kazcare/cheesy-cheese" target="_blank">here.</a> and the deployed link for the website can be found by clicking <a href="https://kazcare.github.io/cheesy-cheese/index.html" target="_blank">here.</a>
 
@@ -255,8 +258,6 @@ You can check out my GitHub repository by clicking <a href="https://github.com/k
 ## Credits
 
 I would like to inform you all that this project (Cheesy Cheese) is built for educational purpose only and I have rendered the following items and information from different resources. I would like to thank you all for helping me completing my project.
-
-[Back to Top](#table-of-contents)
 
 <a></a>
 ### Content
