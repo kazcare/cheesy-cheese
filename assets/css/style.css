@@ -274,14 +274,14 @@ img {
 
 .container {
     color: rgb(23, 16, 44);
-    height: 130px;
+    height: 150px;
     width: 50%;
     background-color: rgb(241, 247, 243);
-    padding: 25px 35px 25px 35px;
+    padding: 40px 50px 40px 50px;
     justify-content: center;
     text-align: center;
-    margin-top: 10%;
-    margin-bottom: 40%;
+    margin-top: 30%;
+    margin-bottom: 50%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 17px;
@@ -337,8 +337,20 @@ img {
 /* thankyou message box height goes bigger to accommodat the short width */
     .container{
         height: 150px;
+        margin-top: 30%;
         margin-bottom: 50%;
         padding: 5px 15px 5px 15px;
+    }
+}
+
+/* media query for 800px or smaller screen sizes*/
+@media screen and (max-width: 800px) {
+
+/*thankyou message box height get bigger to accomodate the shorter width*/
+    .container{
+        height: 200px;
+        margin-top: 30%;
+        margin-bottom: 50%;
     }
 }
 
