@@ -9,7 +9,7 @@ Idea of this website to give something special to the community who love cheese 
 
 Many people around the world love cheese and food made from cheese, even some on them use it as their regular part of daily meal. Kids love food with cheese in it and they always want something cheesy. It is a good idea to have them all in one place for their mommies. So, they don't need to go to website and look for cheesy recipes, as these are all cheesy in this website.
 
-You can check out my **GitHub repository** by clicking <a href="https://github.com/kazcare/cheesy-cheese" target="_blank">**here**.</a> and the deployed **live link** for the website can be found by clicking <a href="https://kazcare.github.io/cheesy-cheese/index.html" target="_blank">**here**.</a>    
+**GitHub repository** can be found by clicking <a href="https://github.com/kazcare/cheesy-cheese" target="_blank">**here**.</a> and the deployed **live link** for the website can be found by clicking <a href="https://kazcare.github.io/cheesy-cheese/index.html" target="_blank">**here**.</a>    
 
 <img src="docs/responsive-main.png">
 
@@ -26,7 +26,6 @@ You can check out my **GitHub repository** by clicking <a href="https://github.c
         * [Fonts](#fonts)
         * [Icons](#icons)
         * [Colors](#colors)
-* [Wireframes](#wireframes)
 * [Features](#features)
     * [Header and Navbar](#header-and-navbar)
     * [Hero Image](#hero-image)
@@ -92,7 +91,7 @@ You can check out my **GitHub repository** by clicking <a href="https://github.c
 <a></a>
 ### Fonts
 
-I have used Google fonts to find the desired font styles from this project and have decided to use font **'Lato' and 'Oswald'**. These two font styles complement each other very well.
+I have used Google fonts to find the desired font styles for this project and have decided to use font **'Lato' and 'Oswald'**. These two font styles complement each other very well.
 
 * I used Oswald font style for the headings. Oswald makes the headings clear and nice to look at. 
 
@@ -113,9 +112,11 @@ I used a colour similar to **navy** *rgb(23, 16, 44)* for the all the texts and 
 ## Features
 ### **Header and Navbar**
 
-* Website has a static header element with logo on the left side of the desktop page.
+* Website has a header element with logo on the left side of the website.
 
-* Navigation bar elements are increase in size when the particular navbar element is hovered. 
+* There is a nav bar beside logo on the right hand side.
+
+* Navigation bar links are increase in size when the particular navbar link is hovered. 
 
 * The navigation link is underlined for the current active page.
     
@@ -134,9 +135,9 @@ I used a colour similar to **navy** *rgb(23, 16, 44)* for the all the texts and 
 
  * On home page there is a hero image, which is consistent throughout the website.
 
- * On the Hero image on the right hand side there is some cover text and brief description about what is this website for. 
+ * On the Hero image on the right hand side there is a text overlay block showubg brief description about what is this website for. 
 
- * The cover text shift towards the right hand side for the smaller screens.
+ * The cover text (text overlay) shift towards the left hand side for the smaller screens.
 
 [Back to Top](#table-of-contents)
 
@@ -175,6 +176,8 @@ There are currently 2 recipe pages available, Mac n Cheese and Cheesy Pizza. The
 ### **Footer**
 
 * Footer contains social media icons which are linked to the corresponding external websites.
+
+* These links open in a new tabs, so user stays on our website.
 
 * The footer section covers 100% of the screen width on all screen sizes.
 
@@ -238,17 +241,17 @@ I used gitpod IDE to code my website.
 
     4. Once it is opened, click the green Gitpod button on the right hand side to create a Gitpod workspace. It takes some time to create it.
         
-* Note: Once the Gitpod workspace is created for certain repository, do not clisk the green Gitpod button again, as it will create another workspace for the same repository. Everytime after the Gitpod workspace is created, access it by clicking <a href="https://gitpod.io/workspaces" target="_blank">gitpod.io/workspaces</a>.
+* Note: Once the Gitpod workspace is created for certain repository, do not click the green Gitpod button again, as it will create another workspace for the same repository. Everytime after the Gitpod workspace is created, access it by clicking <a href="https://gitpod.io/workspaces" target="_blank">gitpod.io/workspaces</a>.
 
     5. In the Gitpod IDE there are three main sections: 
         -  on the left hand side there is an explorer shows the list of the files and folders in the project. 
         - The right hand side is devided into two portions vertically. 
         - Bigger portion on the top is for write codes and the bottom is to write commands for the Gitpod IDE.
 
-    6. Every change made to the any file and folder in the project has to be sent to GitHub, otherwise the deployed projec will not show those changes.
+    6. Every change made to the any file and folder in the project has to be sent to GitHub, otherwise the deployed project will not show those changes.
 
     7. To send the changes to GitHub following three steps to be followed 
-        - First, changes are to be added by giving command 'git add filename' or use 'git add .' for add all the changes to more tham one item in the project. 
+        - First, changes are to be added by giving command 'git add filename' or use 'git add .' for add all the changes to more than one item in the project. 
         - Once these changes are added, a commit command to be entered by giving command 'git commit -m "message regarding changes made since last commit" '. 
         - After the commit command 'git push' command is to be entered to push all the chages to the deployed project.
 
@@ -288,7 +291,7 @@ I used gitpod IDE to code my website.
 
     - Logo stayed on the top left hand side on  all the pages of the site. Font size reduced for 600px and smaller screen sizes.
 
-    - Navbar sat on the left hand side of the logo on all pages. It moved under the logo for screen sizes 950px and smaller. Its font reduced for the screen sizes 600px and smaller.
+    - Navbar sat on the right hand side of the logo on all pages. It moved under the logo for screen sizes 950px and smaller. Its font reduced for the screen sizes 600px and smaller.
 
     - Hero image stayed under the Header area covering 100% of the width on all pages.
 
@@ -311,7 +314,7 @@ I used gitpod IDE to code my website.
 <a></a>
 ### Validator Testing
 
-* No errors were detected by W3C validatol for all html files.
+* No errors were detected by W3C validator for all html files.
 
 * No issues were indicated by W3C CSS (Jigsaw) validator for css file.
 
@@ -328,7 +331,7 @@ I used gitpod IDE to code my website.
 
 * I have a sticky header and navbar, situated side by side on the top of the each page of the site. On the smaller screens navbar moves under the logo creating another row. For the mobile screens navbar used to go under logo but the navbar items were stacked on top of each other and it was covering almost half of the screen. I fixed if by reducing the font of the navbar item, so these can fit on onle row under the logo.
 
-* The sticky header and navbar had another issue that when I was scrolling down it was staying on the top of all the items except hero image. I used z-index on the header area and hero image and gave the one for header area higher value than the one for the hero image to solve the issue.
+* The sticky header and navbar had another issue that when I was scrolling down it was staying on the top of all the items except hero image. I used z-index on the header area and hero image and gave the one for header area higher value than the one for the hero image to resolve the issue.
 
 [Back to Top](#table-of-contents)
 
@@ -339,13 +342,13 @@ I deployed my website through <a href="https://github.com/" target="_blank">GitH
 
 1. I started by logging in to my own account and clicked on "your repositories" link in the my account menu. 
 
-2. I clicked my project repository, it opened another page with all ny files I created for the project. 
+2. I clicked my project repository, it opened another page with all my files I created for the project. 
 
-3. On top of the screen just above the list of file there is a menu. 
+3. On top of the screen just above the list of file there was a menu. 
 
-4. Next, I clicked the setting option on the right hand of the menu, which brings to the setting page. 
+4. Next, I clicked the setting option on the right hand of the menu, which brought me to the setting page. 
 
-5. I scrolled down untill I find GitHub Pages option. 
+5. I scrolled down untill I found GitHub Pages option. 
 
 6. Then I clicked "check it out here" link under it to open Github Pages full menu page and it said that my site was published at the web address.
 
@@ -354,7 +357,7 @@ I deployed my website through <a href="https://github.com/" target="_blank">GitH
 <a></a>  
 ## Credits
 
-I would like to inform you all that this project (Cheesy Cheese) is built for **educational purpose** only and I have rendered the following items and information from different resources. I would like to thank you all for helping me completing my project.
+I would like to inform you all that this project (Cheesy Cheese) is built for **educational purpose** only and I have rendered the following items and information from different resources. I would like to thank all of these resources for helping me completing my project.
 
 <a></a>
 ### Content
