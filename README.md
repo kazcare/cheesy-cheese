@@ -238,40 +238,70 @@ Following procedures are to be followed to get to the Gitpod IDE.
 
     4. Once it is opened, click the green Gitpod button on the right hand side to create a Gitpod workspace. It takes some time to create it.
         
-    Note: Once the Gitpod workspace is created for certain repository, do not clisk the green Gitpod button again, as it will create another workspace for the same repository. Everytime after the Gitpod workspace is created, access it through <a href="https://gitpod.io/workspaces" target="_blank">gitpod.io/workspaces</a>.
+Note: Once the Gitpod workspace is created for certain repository, do not clisk the green Gitpod button again, as it will create another workspace for the same repository. Everytime after the Gitpod workspace is created, access it by clicking <a href="https://gitpod.io/workspaces" target="_blank">gitpod.io/workspaces</a>.
 
     5. In the Gitpod IDE there are three main sections: on the left hand side there is an explorer shows the list of the files and folders in the project. The right hand side is devided into two portions vertically. Bigger portion on the top is for write codes and the bottom is to write commands for the Gitpod IDE.
 
     6. Every change made to the any file and folder in the project has to be sent to GitHub, otherwise the deployed projec will not show those changes.
 
-    7. To send the changes to GitHub There is three step method. First, changes are to be added by giving command 'git add filename' or use 'git add .' for add all the changes to more tham one item in the project. Once these changes are added, a commit command to be entered by giving command 'git commit -m "message regarding changes made since last commit" '. After the commit command 'git push' command is to be entered to push all the chages to the deployed project.
+    7. To send the changes to GitHub following three steps to be followed 
+        * First, changes are to be added by giving command 'git add filename' or use 'git add .' for add all the changes to more tham one item in the project. 
+        * Once these changes are added, a commit command to be entered by giving command 'git commit -m "message regarding changes made since last commit" '. 
+        * After the commit command 'git push' command is to be entered to push all the chages to the deployed project.
 
 [Back to Top](#table-of-contents)
 
 <a></a>
-## Testing
+## **Testing**
 
 <a></a>
 ### Physical Testing
 
-This website is tested on **Google Chrome, Microsoft Edge and Mozilla Firefox**.
+Testing were carried out on Google Chrome, Microsoft Edge and Mozilla Firefox for following devices:
+
+        Google Nexus 10
+
+        iPhone 13 Pro
+
+        iPad
+
+        iPad Pro
+
+        OnePlus 9
+
+        Huawei Mate 20 Pro
+
+        Samsung Galaxy Fold
+
+        Samsung Galaxy S20
+
+        Samsung Galaxy S21
+
+        Samsung Galaxy Tab S4
+
+### **Testing Features**
+
+Following features were tested for all of the above screen sizes
+
+    * Logo stayed on the top left hand side on  all the pages of the site. Font size reduced for 600px and smaller screen sizes.
+
+    * Navbar sat on the left hand side of the logo on all pages. It moved under the logo for screen sizes 950px and smaller. Its font reduced for the screen sizes 600px and smaller.
+
+    * Hero image stayed under the Header area covering 100% of the width on all pages.
+
+    * Cover text Stayed on the right hand side on top of the Hero Image but it moved to the left hand side for 950px and smaller screen sizes. It reduced its font for the screen size 600px and smaller.
+
+    * Body area of the home page and the recipe pages covered 100% of the screen including the picture which shared 50% of the width of the top of the body area. Text took over the full width under the image as it was intended. The image took over 100% of the width for 600px and smaller screen sizes.
+
+    * Footer stayed at the bottom of all the pages with social media link, which worked as they intended and opened in the new tab.
+
+    * on the feedback form submit button didn't let it submit without entering all the required fields and checked for the valid syntax.
+
+    * When all the required fields on the feedback form were validated, the submit button brought me to the Thankyou page.
 
 <img src="docs/testing-chrome.png">
 <img src="docs/testing-edge.png">
 <img src="docs/testing-firefox.png">
-
-it was tested on a **Huawei P30 android phone** for mobile screen responsiveness.
-
-<img src="docs/phone-top.jpg">
-<img src="docs/phone-footer.jpg">
-
-It is responsive for different screen sizes, which is checked on all above mentioned internet browsers, phone screen.
-
-The colour scheme used in the website is readable on all screens and browsers. 
-
-Forms are tested, it validates the input for different fields and submit button responds.
-
-Clicking on submit button, if form is validated, brings user to the thankyou page.
 
 [Back to Top](#table-of-contents)
 
