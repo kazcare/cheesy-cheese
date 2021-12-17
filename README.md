@@ -50,10 +50,10 @@ Many people around the world love cheese and food made from cheese, even some on
 <a></a>
 ## User Goals
 
-* Website should be easy to navigate on all devices formats such as desktop, tablets and mobile phones.
-* Visually pleasing.
+* Website should be easy to navigate on all different screen formats such as desktop, tablets and mobile phones.
+* It should be visually pleasing.
 * Provide users good quality content.
-* Should have other useful information regarding the main ingredient.
+* Should have useful information regarding the main ingredient.
 * Easy to follow recipes.
 
 [Back to Top](#table-of-contents)
@@ -342,7 +342,7 @@ I deployed my website through <a href="https://github.com/" target="_blank" rel=
 
 1. I started by logging in to my own account and clicked on "your repositories" link in the "my account" menu. 
 
-2. I clicked "my project repository", it opened another page with all my files I created for the project. 
+2. I clicked my project repository, it opened another page with all my files I created for the project. 
 
 3. On top of the screen just above the list of file there was a menu. 
 
