@@ -5,11 +5,11 @@
 # **Cheesy Cheese**
 ## Overview
 
-Idea of this website to give something special to the community who love cheese so much that they can't live without it. There are already website for recipes including recipes of food with cheese in it. But I decided to make a website with the recipes of tasty, delicius and famous food made from cheese or used cheese as its main ingredient. It means **every recipes in this website has cheese in it as its main ingredient**.
+Idea of this website to give something special to the community who love cheese so much that they can't live without it. There are already websites for recipes including recipes of food with cheese in it. But I decided to make a website with the recipes of tasty, delicious and famous food made from cheese or used cheese as its main ingredient. It means **every recipes in this website has cheese in it as its main ingredient**.
 
 Many people around the world love cheese and food made from cheese, even some on them use it as their regular part of daily meal. Kids love food with cheese in it and they always want something cheesy. It is a good idea to have them all in one place for their mommies. So, they don't need to go to website and look for cheesy recipes, as these are all cheesy in this website.
 
-**GitHub repository** can be found by clicking <a href="https://github.com/kazcare/cheesy-cheese" target="_blank">**here**.</a> and the deployed **live link** for the website can be found by clicking <a href="https://kazcare.github.io/cheesy-cheese/index.html" target="_blank">**here**.</a>    
+**GitHub repository** can be found by clicking <a href="https://github.com/kazcare/cheesy-cheese" target="_blank" rel="noopener">**here**.</a> and the deployed **live link** for the website can be found by clicking <a href="https://kazcare.github.io/cheesy-cheese/index.html" target="_blank" rel="noopener">**here**.</a>    
 
 <img src="docs/responsive-main.png">
 
@@ -135,7 +135,7 @@ I used a colour similar to **navy** *rgb(23, 16, 44)* for the all the texts and 
 
  * On home page there is a hero image, which is consistent throughout the website.
 
- * On the Hero image on the right hand side there is a text overlay block showubg brief description about what is this website for. 
+ * On the Hero image on the right hand side there is a text overlay block showing brief description about what is this website for. 
 
  * The cover text (text overlay) shift towards the left hand side for the smaller screens.
 
@@ -146,7 +146,7 @@ I used a colour similar to **navy** *rgb(23, 16, 44)* for the all the texts and 
 
  * Under the hero image it has some text including some facts about cheese and why people think it is amazing, what actually cheese is and what is the origin of cheese? 
 
- * It has an picture on the right hand side of the text, which covers 50% of the screen normally but it take up 100% of the width when screen size is reduced to 600 pixels or less.
+ * It has a picture on the right hand side of the text, which covers 50% of the screen normally but it take up 100% of the width when screen size is reduced to 600 pixels or less.
 
 <img src="docs/responsive-main.png">
 
@@ -158,7 +158,7 @@ There are currently 2 recipe pages available, Mac n Cheese and Cheesy Pizza. The
 
 * On the recipe pages under the hero image there are two sections, Ingredients and Method.
 
-* Igrediemts are listed as an unordered list.
+* Igredients are listed as an unordered list.
 
 * In the section with ingredients there is a picture as well, which  covers 50% of the screen width. 
 
@@ -166,7 +166,7 @@ There are currently 2 recipe pages available, Mac n Cheese and Cheesy Pizza. The
 
 * But this picture takes 100% width for the smaller screens and ingredients shifts under the picture.
 
-* under ingredients it has a method section showing how to cook the food step by step.
+* Under ingredients it has a method section showing how to cook the food step by step.
 
 <img src="docs/recipe-page.png">
 
@@ -177,7 +177,7 @@ There are currently 2 recipe pages available, Mac n Cheese and Cheesy Pizza. The
 
 * Footer contains social media icons which are linked to the corresponding external websites.
 
-* These links open in a new tabs, so user stays on our website.
+* These links open in a new tabs, so the user stays on our website.
 
 * The footer section covers 100% of the screen width on all screen sizes.
 
@@ -192,13 +192,13 @@ There are currently 2 recipe pages available, Mac n Cheese and Cheesy Pizza. The
 <a></a>
 ### **Feedback Page**
 
-Feedback page was designed to get cusotmer login and their feedback about the website, get the new ideas from the target audience. There are 4 fields in this form.
+Feedback page was designed to get user login and their feedback about the website, get the new ideas from the target audience. There are 4 fields in this form.
 
 1. Email 
     - Takes user's email address and it is a required field. It validates the entry for the right email syntax and form will not be submitted without having it filled correctly.
 
 2. Username
-    - It takes user's unique id picked by user and it is a required field and form cannot be submitted without entering a valid data.
+    - It takes user's unique ID picked by user and it is a required field and form cannot be submitted without entering a valid data.
 
 3. Password
     - It can be filled with user's own choice of password. It is a required field as well and form will not be validated without it.
@@ -229,29 +229,29 @@ I used media query to make the website responsive to different screen sizes.
 <a></a>
 ### Tools
 
-I used gitpod IDE to code my website. 
+I used Gitpod IDE to code my website. 
 
 * Following procedures are to be followed to get to the Gitpod IDE.
 
-    1. Firstly You need to login to your GitHub account.
+    1. Firstly you need to login to your GitHub account.
 
-    2. Create a new repository by clicking green New button on the right hand side.
+    2. Create a new repository by clicking green "New" button on the right hand side.
 
-    3. Once the repository is created. click the repository to open it.
+    3. Once the repository is created, click the repository to open it.
 
-    4. Once it is opened, click the green Gitpod button on the right hand side to create a Gitpod workspace. It takes some time to create it.
+    4. Once it is opened, click the green "Gitpod" button on the right hand side to create a Gitpod workspace. It takes some time to create it.
         
-* Note: Once the Gitpod workspace is created for certain repository, do not click the green Gitpod button again, as it will create another workspace for the same repository. Everytime after the Gitpod workspace is created, access it by clicking <a href="https://gitpod.io/workspaces" target="_blank">gitpod.io/workspaces</a>.
+* Note: Once the Gitpod workspace is created for certain repository, do not click the green Gitpod button again, as it will create another workspace for the same repository. Everytime after the Gitpod workspace is created, access it by clicking <a href="https://gitpod.io/workspaces" target="_blank" rel="noopener">gitpod.io/workspaces</a>.
 
     5. In the Gitpod IDE there are three main sections: 
-        -  on the left hand side there is an explorer shows the list of the files and folders in the project. 
-        - The right hand side is devided into two portions vertically. 
+        - On the left hand side there is an explorer that shows the list of the files and folders in the project. 
+        - The right hand side is divided into two portions vertically. 
         - Bigger portion on the top is for write codes and the bottom is to write commands for the Gitpod IDE.
 
     6. Every change made to the any file and folder in the project has to be sent to GitHub, otherwise the deployed project will not show those changes.
 
-    7. To send the changes to GitHub following three steps to be followed 
-        - First, changes are to be added by giving command 'git add filename' or use 'git add .' for add all the changes to more than one item in the project. 
+    7. To send the changes to GitHub following three steps to be followed:
+        - First, changes are to be added by giving command 'git add filename' or use 'git add .' for adding all the changes to more than one item in the project. 
         - Once these changes are added, a commit command to be entered by giving command 'git commit -m "message regarding changes made since last commit" '. 
         - After the commit command 'git push' command is to be entered to push all the chages to the deployed project.
 
@@ -263,7 +263,7 @@ I used gitpod IDE to code my website.
 <a></a>
 ### Physical Testing
 
-* Testing were carried out on Google Chrome, Microsoft Edge and Mozilla Firefox for following devices:
+* Testing was carried out on Google Chrome, Microsoft Edge and Mozilla Firefox for following devices:
 
     - Google Nexus 10
 
@@ -295,15 +295,15 @@ I used gitpod IDE to code my website.
 
     - Hero image stayed under the Header area covering 100% of the width on all pages.
 
-    - Cover text Stayed on the right hand side on top of the Hero Image but it moved to the left hand side for 950px and smaller screen sizes. It reduced its font for the screen size 600px and smaller.
+    - Cover text stayed on the right hand side on top of the Hero Image but it moved to the left hand side for 950px and smaller screen sizes. It reduced its font for the screen size 600px and smaller.
 
     - Body area of the home page and the recipe pages covered 100% of the screen including the picture which shared 50% of the width of the top of the body area. Text took over the full width under the image as it was intended. The image took over 100% of the width for 600px and smaller screen sizes.
 
     - Footer stayed at the bottom of all the pages with social media link, which worked as they intended and opened in the new tab.
 
-    - on the feedback form submit button didn't let it submit without entering all the required fields and checked for the valid syntax.
+    - On the feedback form submit button, it didn't let it submit without entering all the required fields and checked for the valid syntax.
 
-    - When all the required fields on the feedback form were validated, the submit button brought me to the Thankyou page.
+    - When all the required fields on the feedback form were validated, the submit button brought me to the "Thank you" page.
 
 <img src="docs/testing-chrome.png">
 <img src="docs/testing-edge.png">
@@ -320,7 +320,7 @@ I used gitpod IDE to code my website.
 
 * I confirmed that colours and fonts are readable.
 
-* I used lighthouse option the Google Chrome Dev Tools to verify the website integrity. Folowing is the screenshot of the report I got from lighthouse. 
+* I used the lighthouse option in the Google Chrome Dev Tools to verify the website integrity. Following is the screenshot of the report. 
     
 <img src="docs/lighthouse-report.png">
 
@@ -329,20 +329,20 @@ I used gitpod IDE to code my website.
 <a></a>
 ## Fixed Bugs
 
-* I have a sticky header and navbar, situated side by side on the top of the each page of the site. On the smaller screens navbar moves under the logo creating another row. For the mobile screens navbar used to go under logo but the navbar items were stacked on top of each other and it was covering almost half of the screen. I fixed if by reducing the font of the navbar item, so these can fit on onle row under the logo.
+* I have a sticky header and navbar, situated side by side on the top of each page of the site. On the smaller screens, navbar moves under the logo, creating another row. For the mobile screens, navbar used to go under logo but the navbar items were stacked on top of each other and it was covering almost half of the screen. I fixed it by reducing the font of the navbar item, so these can fit on one row under the logo.
 
-* The sticky header and navbar had another issue that when I was scrolling down it was staying on the top of all the items except hero image. I used z-index on the header area and hero image and gave the one for header area higher value than the one for the hero image to resolve the issue.
+* The sticky header and navbar had another issue that when I was scrolling down, it was staying on the top of all the items except the hero image. I used z-index on the header area and hero image and gave the one for header area higher value than the one for the hero image to resolve the issue.
 
 [Back to Top](#table-of-contents)
 
 <a></a>
 ## Deployment
 
-I deployed my website through <a href="https://github.com/" target="_blank">GitHub.com</a>.
+I deployed my website through <a href="https://github.com/" target="_blank" rel="noopener">GitHub.com</a>.
 
-1. I started by logging in to my own account and clicked on "your repositories" link in the my account menu. 
+1. I started by logging in to my own account and clicked on "your repositories" link in the "my account" menu. 
 
-2. I clicked my project repository, it opened another page with all my files I created for the project. 
+2. I clicked "my project repository", it opened another page with all my files I created for the project. 
 
 3. On top of the screen just above the list of file there was a menu. 
 
